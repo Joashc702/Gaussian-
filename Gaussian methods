@@ -1,0 +1,15 @@
+import math
+import matplotlib.pyplot as plt
+
+class Gaussian(Distribution):
+    """ 
+    Attributes:
+        mu represents the mean value of the distribution
+        stdev represents the standard deviation of the distribution
+        data_list is a list of floats extracted from the data file
+            
+    """
+    
+    def __init__(self, mu=0, sigma=1):
+        Distribution.__init__(self, mu, sigma)
+    
