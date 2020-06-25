@@ -1,0 +1,18 @@
+class Distribution:
+    def __init__(self, mu=0, sigma=1):
+    
+        """ Distribution class for calculating and 
+        visualizing a probability distribution.
+    
+        Attributes:
+            mu represents the mean value of the distribution
+            sigma represents the standard deviation of the distribution
+            data_list a list of floats extracted from the data file
+        """
+        
+        self.mean = mu
+        self.stdev = sigma
+        self.data = []
+
+
+    
