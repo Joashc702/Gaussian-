@@ -16,7 +16,7 @@ class Gaussian(Distribution):
         Distribution.__init__(self, mu, sigma)
     
     
-def calculate_mean(self):
+    def calculate_mean(self):
     
         """Function to calculate the mean of the data set.
         
